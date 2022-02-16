@@ -1,4 +1,4 @@
-name: PR Review Bot
+name: TARS
 description: add custom message with with to every pr request
 inputs:
   message:
