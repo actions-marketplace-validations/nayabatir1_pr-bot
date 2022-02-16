@@ -1,4 +1,4 @@
-name: pr-bot
+name: PR Review Bot
 description: add custom message with with to every pr request
 inputs:
   message:
@@ -10,3 +10,6 @@ inputs:
 runs:
   using: "node16"
   main: "dist/index.js"
+branding:
+  color: "gray-dark"
+  icon: "activity"
