@@ -1,4 +1,4 @@
-name: Combot
+name: Jokerpunx
 description: add custom message with with to every pr request
 inputs:
   message:
