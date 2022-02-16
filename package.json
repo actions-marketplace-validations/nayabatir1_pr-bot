@@ -1,0 +1,27 @@
+{
+  "name": "pr-bot",
+  "version": "1.0.0",
+  "description": "add comment to every with a gif",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayabatir1/pr-bot.git"
+  },
+  "keywords": [
+    "pr-bot"
+  ],
+  "author": "atir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayabatir1/pr-bot/issues"
+  },
+  "homepage": "https://github.com/nayabatir1/pr-bot#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@vercel/ncc": "^0.33.3"
+  }
+}

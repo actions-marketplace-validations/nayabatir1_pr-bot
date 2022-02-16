@@ -1,0 +1,12 @@
+name: pr-bot
+description: add custom message with with to every pr request
+inputs:
+  message:
+    description: custom message you want to add
+    required: true
+  tenorApi:
+    description: tenor api key
+    required: true
+runs:
+  using: "node16"
+  main: "dist/index.js"
